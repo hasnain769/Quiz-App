@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react';
-
+//nothing
 export default function Home() {
   const [questions, setQuestions] = useState<any[]>([]); // Explicitly set type to any[]
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
